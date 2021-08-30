@@ -1,0 +1,386 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+}
+.main-page{
+    width: 210mm;
+    height: 297mm;
+    background-color: #F5EFE4;
+}
+
+.header{
+    position: relative;
+    overflow:hidden;
+    background-color: #594544;
+    width: 210mm;
+    height: 67mm;
+    padding: 5mm 10mm;
+}
+
+.header-picture{
+    float: left;
+    width: 30%;
+}
+.header-picture img{
+    width: 22rem;
+    margin-right: 5mm;
+    border-radius: 40%;
+}
+.header-text{
+    text-align: left;
+    color: white;
+    float: right;
+    width: 65%;
+}
+
+.header-text h3{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-style: italic;
+}
+.header-text h1{
+    font-size:6rem;
+    line-height: 6rem;
+    letter-spacing: 4px;
+}
+
+.header-text p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.option-upper{
+    overflow:hidden;
+    justify-content: space-evenly;   
+    display:flex;
+    height: 5.5rem;
+}
+.info{
+    width: 105mm;
+    height: 5.5rem;
+    font-style: none;
+    text-decoration: none;
+}
+.info a{
+    font-style: none;
+    text-decoration: none;
+}
+
+.info .skills{
+    color: white;
+    text-align: center;
+    position:relative;
+    background-color: #B43D3D;
+    padding-top: 5mm;
+    padding-bottom: 5mm;
+    font-size: 2.8rem;
+    line-height:2rem;
+}
+.info .contact{
+    color: white;
+    text-align: center; 
+    position:relative;
+    background-color: #9E7054;
+    padding-top: 5mm;
+    padding-bottom: 5mm;
+    font-size: 2.8rem;
+    line-height:2rem;
+}
+.info :hover{
+    background-color: #F7B48B;
+    color: black;
+}
+.aboutme{
+    height: 45mm;
+    padding: 5mm 10mm;
+}
+.aboutme h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.aboutme p{
+    font-size: 14px;
+}
+.options-lower{
+    overflow:hidden;
+    justify-content: space-evenly;   
+    display:flex;
+    height: 53rem;
+}
+.portfolio a{
+    width: 70mm;
+    height: 60rem;
+    font-style: none;
+    text-decoration: none;
+}
+
+.portfolio img{
+    width: 70mm;
+    position: relative;
+    opacity: 70%;
+}
+
+.portfolio .thesis{
+    color: white;
+    text-align: center;
+    position:relative;
+    background-color: #B43D3D;
+    padding-top: 5mm;
+    font-size: 2.8rem;
+    line-height:2rem;
+}
+.portfolio .illustration{
+    color: white;
+    text-align: center;
+    position:relative;
+    background-color: #9E7054;
+    padding-top: 5mm;
+    font-size: 2.8rem;
+    line-height:2rem;
+}
+.portfolio .animatics{
+    color: white;
+    text-align: center;
+    position:relative;
+    background-color: #B43D3D;
+    padding-top: 5mm;
+    font-size: 2.8rem;
+    line-height:2rem;
+}
+
+.portfolio :hover{
+    background-color: #F7B48B;
+    color: black;
+    opacity: 100%;
+}
+.footer{
+    position:absolute;
+    background-color: #2B2928;
+    width: 210mm;
+    top: 272mm;
+    height: 25mm;
+    color: white;
+    padding: 3mm 10mm;
+
+}
+.footer h3{
+    font-size: 12px;
+    font-weight: 100;
+}
+.footer img{
+    height: 14px;
+}
+.social-media{
+    float:left;
+    width:50%;
+    line-height: 25px;
+}
+.personal-contact{
+    float:right;
+    width: 40%;
+    line-height: 25px;
+}
+
+/* !Secondary Menu */
+
+.header-sml{
+    z-index: 100;
+    position: fixed;
+    overflow:hidden;
+}
+.header-main-sml{
+    background-color: #594544;
+    width: 210mm;
+    height: 20mm;
+    padding: 1mm 10mm;
+}
+.header-picture-sml{
+    float: left;
+    width: 5%;
+}
+.header-picture-sml img{
+    width: 6.5rem;
+    margin-right: 5mm;
+    border-radius: 20%;
+}
+.header-text-sml{
+    text-align: left;
+    color: white;
+    float: left;
+    position: relative;
+    left: 40px;
+}
+.header-text-sml h1{
+    padding-top: 0.3rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 4px;
+}
+.header-menu-sml{
+    overflow:hidden;
+    justify-content: space-evenly;   
+    display:flex;
+    height: 6mm;
+}
+.menu-sml{
+    background: white;
+    width: 42mm;
+    height: 6rem;
+    font-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+}
+.menu-sml .collumn1-sml{
+    color: white;
+    text-align: center; 
+    position:relative;
+    background-color: #9E7054;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.menu-sml .collumn2-sml{
+    color: white;
+    text-align: center;
+    position:relative;
+    background-color: #B43D3D;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.menu-sml .collumn3-sml{
+    color: white;
+    text-align: center; 
+    position:relative;
+    background-color: #9E7054;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.menu-sml .collumn4-sml{
+    color: white;
+    text-align: center;
+    position:relative;
+    background-color: #B43D3D;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.menu-sml .collumn5-sml{
+    color: white;
+    text-align: center; 
+    position:relative;
+    background-color: #9E7054;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.menu-sml :hover{
+    background-color: #F7B48B;
+    color: black;
+}
+
+/* contact page */
+
+.form{
+    height: 100mm;
+    position: relative;
+    top:26mm;
+    padding: 5mm 10mm;
+}
+.form-all{
+    position:relative;
+    top: 5mm;
+}
+.form-all h1{
+    font-size: 2rem;
+}
+.contact-me{
+    margin-top: 5mm;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+.form-name{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-bottom: 6mm;
+}
+.form-name input{
+    width: 70mm;
+    height: 10mm;
+    font-size: 14px;
+    padding-left: 5mm;
+    padding-right: 5mm;
+}
+.form-email{
+    position:relative;
+    left: 16.5mm;
+    margin-bottom: 6mm;
+}
+.form-email input{
+    width:157mm;
+    height: 10mm;
+    font-size: 14px;
+    padding-left: 5mm;
+    padding-right: 5mm;
+}
+.form-subject{
+    position:relative;
+    height: 10mm;
+    left: 16.5mm;
+    margin-bottom: 12mm;
+}
+.form-subject input{
+    width:157mm;
+    height: 10mm;
+    padding-left: 5mm;
+    padding-right: 5mm;
+    font-size: 14px;
+}
+.form-message{
+    position:relative;
+    left: 16.5mm;
+    margin-bottom: 6mm;
+}
+.form-message textarea{
+    font-size: 14px;
+    width:157mm;
+    height: 50mm;
+    padding-left: 5mm;
+    padding-right: 5mm;
+    padding-top: 3mm;
+}
+.send-it{
+    position:relative;
+    background-color: #B43D3D;
+    color: white;
+    border: none;
+    font-weight: bold;
+    top: 5mm;
+    left: 16.5mm;
+    width:75mm;
+    height:15mm;
+    font-size: 3rem;
+
+}
+
+
+
+
+
+
+
