@@ -118,7 +118,7 @@ body{
     overflow:hidden;
     justify-content: space-evenly;   
     display:flex;
-    height: 53rem;
+    height: 51rem;
 }
 .portfolio a{
     width: 70mm;
@@ -170,8 +170,8 @@ body{
     position:absolute;
     background-color: #2B2928;
     width: 210mm;
-    top: 272mm;
-    height: 25mm;
+    bottom: 0;
+    height: 28mm;
     color: white;
     padding: 3mm 10mm;
 
@@ -183,6 +183,9 @@ body{
 .footer img{
     height: 14px;
 }
+.footer .home{
+    line-height: 1.5rem;
+}
 .social-media{
     float:left;
     width:50%;
@@ -190,7 +193,7 @@ body{
 }
 .personal-contact{
     float:right;
-    width: 40%;
+    width: 48%;
     line-height: 25px;
 }
 
@@ -234,6 +237,10 @@ body{
     justify-content: space-evenly;   
     display:flex;
     height: 6mm;
+}
+.header-menu-sml a{
+    text-decoration: none;
+    font-style: none;
 }
 .menu-sml{
     background: white;
@@ -375,8 +382,200 @@ body{
     width:75mm;
     height:15mm;
     font-size: 3rem;
+}
+
+/* Article */
+
+.article{
+    position: relative;
+    top: 30mm;
+}
+.article-heading{
+    background-color: #2B2928;
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 400;
+    padding-top: 5mm;
+    padding-bottom: 3mm;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    font-size: 2rem;
+}
+.article-heading-resume{
+    background-color: #2B2928;
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 400;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    font-size: 2rem;
+}
+.article-sample{
+    background: #2B2928;
+    text-align: center;
+    height: 118mm;
+}
+.article-sample img{
+    height: 119.4mm;
+}
+
+.article-desc{
+    padding-top: 8mm;
+    padding-bottom: 5mm;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    height: 90mm;
+}
+.desc1{
+    float: left;
+    width: 52%;
+}
+.desc1 h1{
+    font-size: 4rem;
+    padding-bottom: rem;
+    letter-spacing: 2px;
+}
+.desc1 h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.desc1 p{
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+.desc2{
+    float: right;
+    width: 43%;
+}
+.desc2 img{
+    float:right;
+    width: 100%;
+}
+.desc2 p{
+    font-size: 14px;
+}
+
+.morehere{
+    position:absolute;
+    font-weight: bold;
+    bottom: 0;
+    width: 100mm;
+}
+.more{
+    background-color: #B43D3D;
+    width: 30mm;
+    height: 10mm;
+    color: white;
+    padding: 3mm 3mm;
+    border: none;
+}
+
+/* resume */
+
+.article-exp{
+    padding-top: 8mm;
+    padding-bottom: 5mm;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    height: 90mm;
+    line-height: 1.8rem;
+}
+.desc-all-exp{
+    float: right;
+    width: 48%;
+}
+.desc-all-exp h1{
+    color: #F58634;
+    padding-bottom: 0.5rem;
+}
+.desc-all-exp h2{
+    padding-bottom: 0.2rem;
+}
+.desc-all-exp h3{
+    padding-bottom: 0.3rem;
+}
+
+.desc-all-exp h4{
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+.article-skills{
+    padding-top: 8mm;
+    padding-bottom: 5mm;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    height: 90mm;
+    float:left;
+    width: 45%;
+    text-align: left;
+}
+.article-skills img{
+    float:left;
+    text-align: left;
+    width:50mm;
+    padding-left: 2rem;
+}
+.article-skills th{
+    font-size: 1rem;
+}
+.article-skills .allskills{
+    width: 90mm;
+    width: 350px;
+}
+.article-skills .spec-head{
+    color: #F58634;
+    padding-bottom: 1rem;
+}
+.article-skills .spec-head2{
+    color: #F58634;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.article-skills .spec{
+    color: black;
+    padding-bottom: 0.9rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    border-bottom-right-radius: 30px;
 
 }
+.article-skills .alldigital{
+    margin-top: 2rem;
+    width: 350px;
+}
+.allspec{
+    margin-top: 2rem;
+}
+.allspec h1{
+    color: #F58634;
+    padding-bottom: 1rem;
+}
+.allspec ul li{
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+}
+.language{
+    padding-top: 1rem;
+}
+.language img{
+    padding-top: 1rem;
+    float:left;
+    width: 45%;
+}
+.language .english{
+    margin-right: 2rem;
+}
+.language .bahasa{
+}
+
+
+
 
 
 
