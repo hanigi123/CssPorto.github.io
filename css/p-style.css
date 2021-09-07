@@ -170,7 +170,7 @@ body{
     position:absolute;
     background-color: #2B2928;
     width: 210mm;
-    bottom: 0;
+    top: 269mm;
     height: 28mm;
     color: white;
     padding: 3mm 10mm;
@@ -571,9 +571,6 @@ body{
 .language .english{
     margin-right: 2rem;
 }
-.language .bahasa{
-}
-
 
 
 
